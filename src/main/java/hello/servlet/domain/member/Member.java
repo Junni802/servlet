@@ -12,7 +12,7 @@ public class Member {
     private int age;
 
     public Member() {
-
+        
     }
 
     public Member(String username, int age) {
