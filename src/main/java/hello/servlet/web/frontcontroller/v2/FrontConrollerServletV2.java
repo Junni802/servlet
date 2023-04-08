@@ -25,7 +25,7 @@ public class FrontConrollerServletV2 extends HttpServlet {
 
     public FrontConrollerServletV2() {
         controllerMap.put("/front-controller/v2/members/new-form", new MemberFormControllerV2());
-        controllerMap.put("/front-controller/v2/members/save", new MemberSaveControllerV2();
+        controllerMap.put("/front-controller/v2/members/save", new MemberSaveControllerV2());
         controllerMap.put("/front-controller/v2/members", new MemberListControllerV2());
     }
 
